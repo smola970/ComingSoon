@@ -73,6 +73,17 @@ span {
 }
 
 #how-it-works {
+  h1 {
+    padding-left: 0;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+  li {
+    font-family: TimesNewRoman;
+    font-style: italic;
+  }
   @media (min-width: 992px) {
     p {
       text-align: justify;
@@ -129,6 +140,7 @@ span {
       letter-spacing: 0.3em;
       text-transform: uppercase;
       padding: 0 0.1em;
+      font-style: normal;
     }
   }
 }
@@ -254,7 +266,7 @@ h4 {
   background-color: black;
   color: rgba(255,255,255,0.7);
   margin-left: -1.2em;
-  width: 112%;
+  width: 110%;
 }
 
 .white-button {
