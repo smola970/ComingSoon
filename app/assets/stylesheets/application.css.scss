@@ -265,8 +265,17 @@ h4 {
   border-top: solid black 1px;
   background-color: black;
   color: rgba(255,255,255,0.7);
-  margin-left: -1.2em;
-  width: 110%;
+  margin-left: 0;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.padded {
+  padding: 1em;
 }
 
 .white-button {
