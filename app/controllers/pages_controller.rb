@@ -5,4 +5,7 @@ class PagesController < ApplicationController
 
   def how_it_works
   end
+
+  def q1RVtaSR
+  end
 end

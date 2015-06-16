@@ -56,4 +56,6 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'how_it_works' => 'pages#how_it_works'
 
+  get 'q1RVtaSR' => 'pages#q1RVtaSR'
+
 end
